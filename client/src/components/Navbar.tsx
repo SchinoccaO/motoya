@@ -1,4 +1,4 @@
-import { Link } from 'react-router-dom'
+import { Link } from "react-router-dom";
 
 export default function Navbar() {
   return (
@@ -11,7 +11,9 @@ export default function Navbar() {
               <div className="size-8 bg-primary rounded-lg flex items-center justify-center text-text-main">
                 <span className="material-symbols-outlined">two_wheeler</span>
               </div>
-              <h2 className="text-xl font-bold leading-tight tracking-tight">MotoYA</h2>
+              <h2 className="text-xl font-bold leading-tight tracking-tight">
+                motoTEC
+              </h2>
             </div>
           </Link>
 
@@ -32,13 +34,22 @@ export default function Navbar() {
           {/* Right Menu */}
           <div className="flex items-center gap-6">
             <div className="hidden lg:flex items-center gap-6">
-              <a className="text-sm font-medium hover:text-primary transition-colors dark:text-gray-300" href="#">
+              <a
+                className="text-sm font-medium hover:text-primary transition-colors dark:text-gray-300"
+                href="#"
+              >
                 Talleres
               </a>
-              <a className="text-sm font-medium hover:text-primary transition-colors dark:text-gray-300" href="#">
+              <a
+                className="text-sm font-medium hover:text-primary transition-colors dark:text-gray-300"
+                href="#"
+              >
                 Repuestos
               </a>
-              <a className="text-sm font-medium hover:text-primary transition-colors dark:text-gray-300" href="#">
+              <a
+                className="text-sm font-medium hover:text-primary transition-colors dark:text-gray-300"
+                href="#"
+              >
                 Comunidad
               </a>
               <Link
@@ -61,5 +72,5 @@ export default function Navbar() {
         </div>
       </div>
     </nav>
-  )
+  );
 }
